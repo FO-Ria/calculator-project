@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, "poppins";
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.calculator {
+  border: 1px solid #6c757d;
+  padding: 20px;
+  border-radius: 16px;
+  background: #6c757d;
+  box-shadow: 0px 15px #343434;
+}
+::placeholder {
+  color: black;
+  text-align: right;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.output{
+  width: 95%;
+}
+input {
+  width: 100%;
+  height: 80%;
+  border: none;
+  padding: 22px;
+  margin: 12px;
+  border-radius: 12px;
+  box-shadow: 0px 15px white;
+  color: black;
+  font-size: 20px;
+  font-weight: 1000;
+  text-align: center;
+  cursor: pointer;
+}
