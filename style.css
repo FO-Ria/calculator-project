@@ -14,8 +14,14 @@ body {
   justify-content: center;
   align-items: center;
   background-color: black;
+  gap: 2em;
 }
-
+a {
+  color: white;
+  display: flex;
+  font-size: 40px;
+  text-decoration: none;
+}
 .calculator {
   border: 1px solid #6c757d;
   padding: 20px;
